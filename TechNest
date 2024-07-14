@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>TechNest</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to TechNest</h1>
+        <p>Your hub for technology resources and insights.</p>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/resources">Resources</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Featured Topics</h2>
+            <ul>
+                <li>AI and Machine Learning</li>
+                <li>Web Development</li>
+                <li>Data Science</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 TechNest. All rights reserved.</p>
+    </footer>
+</body>
+</html>
